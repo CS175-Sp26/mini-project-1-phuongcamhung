@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Project1CamPhuong</string>
+    <string name="app_name">Mortgage Calculator by Cam Hung</string>
+    <string name ="Principal_Input">Enter Principal ($):</string>
+    <string name="hint_Principal">Principal</string>
+    <string name="IR">Interest rate:</string>
+    <string name="LTSelection">Select Loan Term</string>
+    <string name="_15_years">15 years</string>
+    <string name="_20_years">20 years</string>
+    <string name="_30_years">30 years</string>
+    <string name="taxes_insurance">Include taxes and insurance (0.1%)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="uninstall">UNINSTALL</string>
+    <string name="_10_00">10%</string>
+    <string name="press_calculate">Press CALCULATE for monthly payments.</string>
 </resources>

@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+          viewBinding = true;
+    }
     namespace = "edu.sjsu.android.project1CamPhuong"
     compileSdk {
         version = release(36)
