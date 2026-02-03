@@ -4,7 +4,7 @@ plugins {
 
 android {
     buildFeatures{
-          viewBinding = true;
+          viewBinding = true
     }
     namespace = "edu.sjsu.android.project1CamPhuong"
     compileSdk {

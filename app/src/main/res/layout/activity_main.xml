@@ -17,7 +17,6 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,11 +25,13 @@
 
     <EditText
         android:id="@+id/Principal"
+        android:hint="@string/hint_Principal"
         android:layout_width="231dp"
-        android:layout_height="46dp"
+        android:layout_height="50dp"
         android:autofillHints="no"
         android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@id/textView3"
+        app:layout_constraintRight_toLeftOf="@id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView3" />

@@ -22,7 +22,7 @@ import edu.sjsu.android.project1CamPhuong.databinding.ActivityMainBinding;
 //import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
+    //private ActivityMainBinding binding;
     private EditText principal;
     private SeekBar interestRateBar;
     private TextView interestValue;
@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(binding.getRoot());
-        View root = binding.getRoot();
+//        setContentView(binding.getRoot());
+//        View root = binding.getRoot();
         setContentView(R.layout.activity_main);
 
         //connect java file with ui stuff
